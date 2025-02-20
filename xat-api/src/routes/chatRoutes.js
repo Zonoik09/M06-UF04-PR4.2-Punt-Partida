@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { registerPrompt, getConversation, listOllamaModels } = require('../controllers/chatController');
+const { registerPrompt, getConversation, listOllamaModels, analyzeSentiment } = require('../controllers/chatController');
+
 
 /**
  * @swagger
@@ -74,5 +75,59 @@ router.get('/conversation/:id', getConversation);
  *         description: Error al recuperar models
  */
 router.get('/models', listOllamaModels);
+
+/**
+ * @swagger
+ * /api/chat/sentiment:
+ *   post:
+ *     summary: Analitzar el sentiment d'un text
+ *     tags: [Sentiment]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               model:
+ *                 type: string
+ *                 description: Model d'Ollama a utilitzar
+ *                 default: llama3:latest
+ *               prompt:
+ *                 type: string
+ *                 description: Text a analitzar
+ *                 default: Analyze the sentiment of this text and respond with only one word (positive/negative/neutral) Is a good game!
+ *               stream:
+ *                 type: boolean
+ *                 description: Indica si la resposta ha de ser en streaming
+ *                 default: false
+ *     responses:
+ *       200:
+ *         description: Sentiment analitzat correctament
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 model:
+ *                   type: string
+ *                   description: Model utilitzat
+ *                 prompt:
+ *                   type: string
+ *                   description: Text analitzat
+ *                 sentiment:
+ *                   type: string
+ *                   description: Resultat del sentiment (positive/negative/neutral)
+ *                 stream:
+ *                   type: boolean
+ *                   description: Indica si s'ha utilitzat streaming
+ *       400:
+ *         description: Dades invàlides
+ *       500:
+ *         description: Error en l'anàlisi de sentiment
+ */
+router.post('/sentiment', analyzeSentiment);
+
+
 
 module.exports = router;

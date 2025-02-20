@@ -376,9 +376,49 @@ const getConversation = async (req, res, next) => {
     }
 };
 
+/**
+ * Analitza el sentiment d'un text
+ * @route POST /api/chat/sentiment
+ */
+const analyzeSentiment = async (req, res, next) => {
+    try {
+        const { model, prompt, stream = false } = req.body;
+
+        if (!prompt?.trim()) {
+            return res.status(400).json({ message: 'El prompt és obligatori' });
+        }
+
+        const response = await axios.post(`${OLLAMA_API_URL}/generate`, {
+            model: model || process.env.CHAT_API_OLLAMA_MODEL_TEXT || DEFAULT_OLLAMA_MODEL,
+            prompt: `Analyze the sentiment of this text and respond with only one word (positive/negative/neutral): "${prompt}"`,
+            stream
+        });
+
+        if (!response.data?.response) {
+            return res.status(500).json({ message: 'Error en l\'anàlisi de sentiment' });
+        }
+
+        res.json({
+            model,
+            prompt,
+            sentiment: response.data.response.trim().toLowerCase(),
+            stream
+        });
+    } catch (error) {
+        logger.error('Error analitzant sentiment', { error: error.message });
+        next(error);
+    }
+};
+
+
+
 // Exportació de les funcions públiques
 module.exports = {
     registerPrompt,
     getConversation,
-    listOllamaModels
+    listOllamaModels,
+    analyzeSentiment
 };
+
+
+

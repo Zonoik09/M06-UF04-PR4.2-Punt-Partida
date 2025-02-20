@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-02-19T16:37:11.841Z",
+  "games": [
+    {
+      "appid": "10",
+      "name": "Counter-Strike",
+      "statistics": {
+        "positive": 1,
+        "negative": 4,
+        "neutral": 2,
+        "error": 0
+      }
+    },
+    {
+      "appid": "20",
+      "name": "Team Fortress Classic",
+      "statistics": {
+        "positive": 1,
+        "negative": 8,
+        "neutral": 1,
+        "error": 0
+      }
+    }
+  ]
+}

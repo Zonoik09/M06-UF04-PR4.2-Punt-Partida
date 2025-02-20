@@ -1,0 +1,34 @@
+{
+  "analisis": [
+    {
+      "imatge": {
+        "nom_fitxer": "02f4b3be2d.jpg"
+      },
+      "analisi": "{\"timestamp\": \"2023-09-16T12:32:59.403Z\", \"animals\": [{\"name\": \"Pronghorn\", \"scientific_name\": \"Antilocapra americana\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Artiodactyla\", \"family\": \"Antilocapridae\", \"genus\": \"Antilocapra\", \"species\": \"A. americana\"}, \"habitat\": \"Open grasslands, sagebrush steppe, and mountainous regions of western North America.\", \"diet\": \"Herbivorous, feeding on plants, fruits, and vegetation.\", \"physical_characteristics\": \"Large antlers, white face markings, and a distinctive call.\", \"conservation_status\": \"Least Concern\"}]}"
+    },
+    {
+      "imatge": {
+        "nom_fitxer": "03d7fc0888.jpg"
+      },
+      "analisi": "{\"timestamp\": \"2023-09-14T16:35:42.000Z\", \"animals\": [{\"name\": \"Gazella cuvieri\", \"scientific_name\": \"Gazella cuvieri\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Artiodactyla\", \"family\": \"Bovidae\", \"genus\": \"Gazella\", \"species\": \"cuvieri\"}, \"habitat\": \"Savanes i praderies de l'est d'Àfrica\", \"diet\": \"Herbivori\", \"physical_characteristics\": \"La Gazella cuvieri té unes banyes curtes, un cos prim i uns membres llargs. El pelatge és variable en color, però generalment és marró clar.\", \"conservation_status\": \"No amenaçada (LC)\" }]}"
+    },
+    {
+      "imatge": {
+        "nom_fitxer": "00f56e5c92.jpg"
+      },
+      "analisi": "{\"timestamp\": \"2023-09-15T07:25:00.000Z\", \"animals\": [{\"name\": \"Badger\", \"scientific_name\": \"Meles meles\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Carnivora\", \"family\": \"Mustelidae\", \"genus\": \"Meles\", \"species\": \"meles\"}, \"habitat\": \"Forests, grasslands and wetlands.\", \"diet\": \"Insects, fruits, roots, and small mammals.\", \"physical_characteristics\": \"Stocky body, short legs, distinctive white stripes on its face.\", \"conservation_status\": \"Least Concern\"}]}"
+    },
+    {
+      "imatge": {
+        "nom_fitxer": "010fce8ee7.jpg"
+      },
+      "analisi": "{\"timestamp\": \"2023-09-14T15:30:00.000Z\", \"animals\": [{\"name\": \"badger\", \"scientific_name\": \"Taxidea taxus\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Carnivora\", \"family\": \"Mustelidae\", \"genus\": \"Taxidea\", \"species\": \"taxus\"}, \"habitat\": \"Open woodland, grassland and scrub areas\", \"diet\": \"Insects, small mammals, fruits, roots and carrion\", \"physical_characteristics\": \"Stocky body, short legs, distinctive white stripe on face, coarse greyish-brown fur with a pale underside\", \"conservation_status\": \"Least Concern\"}]}"
+    },
+    {
+      "imatge": {
+        "nom_fitxer": "003bd60fa9.jpg"
+      },
+      "analisi": "{\"timestamp\": \"2023-09-14T21:25:00.000Z\", \"animals\": [{\"name\": \"Mol\\u00fcsca\", \"scientific_name\": \"Rhinolophus ferrumequinum\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Chiroptera\", \"family\": \"Rhinolophidae\", \"genus\": \"Rhinolophus\", \"species\": \"ferrumequinum\"}, \"habitat\": \"Cavernes, mines i espais tancats\", \"diet\": \"Insectes nocturns\", \"physical_characteristics\": \"Els seus ulls s\\u2019han adaptat a la vida nocturna, amb un conjunt de cèl·lules fotoreceptors especialitzades per detectar les freq\\u00fcencies d\\u2019ultrason que emeten els insectes\", \"conservation_status\": \"Menor preocupaci\\u00f3\"}]}"
+    }
+  ]
+}
