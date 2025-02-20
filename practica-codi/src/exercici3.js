@@ -21,7 +21,6 @@ async function imageToBase64(imagePath) {
     }
 }
 
-// Funció per fer la petició a Ollama amb més detalls d'error
 async function queryOllama(base64Image, prompt) {
     const requestBody = {
         model: OLLAMA_MODEL,
@@ -48,12 +47,21 @@ async function queryOllama(base64Image, prompt) {
             throw new Error('La resposta d\'Ollama no té el format esperat');
         }
 
-        return data.response;
+        // Assegureu-vos que la resposta es converteix correctament a JSON
+        let parsedResponse;
+        try {
+            parsedResponse = JSON.parse(data.response);
+        } catch (error) {
+            throw new Error('Error en analitzar la resposta de l\'API');
+        }
+
+        return parsedResponse;
     } catch (error) {
-        console.error('Error detallado en la petición a Ollama:', error.message);
+        console.error('Error detallado en la petició a Ollama:', error.message);
         return null;
     }
 }
+
 
 // Funció per analitzar la informació de l'animal
 async function analyzeAnimal(imageFile) {

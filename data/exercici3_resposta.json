@@ -4,31 +4,136 @@
       "imatge": {
         "nom_fitxer": "02f4b3be2d.jpg"
       },
-      "analisi": "{\"timestamp\": \"2023-09-16T12:32:59.403Z\", \"animals\": [{\"name\": \"Pronghorn\", \"scientific_name\": \"Antilocapra americana\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Artiodactyla\", \"family\": \"Antilocapridae\", \"genus\": \"Antilocapra\", \"species\": \"A. americana\"}, \"habitat\": \"Open grasslands, sagebrush steppe, and mountainous regions of western North America.\", \"diet\": \"Herbivorous, feeding on plants, fruits, and vegetation.\", \"physical_characteristics\": \"Large antlers, white face markings, and a distinctive call.\", \"conservation_status\": \"Least Concern\"}]}"
+      "analisi": {
+        "timestamp": "2023-09-19T12:35:41.532Z",
+        "animals": [
+          {
+            "name": "Antilocapra americana",
+            "scientific_name": "Pronghorn Antelope",
+            "taxonomy": {
+              "kingdom": "Animalia",
+              "phylum": "Chordata",
+              "class": "Mammalia",
+              "order": "Artiodactyla",
+              "family": "Antilocapridae",
+              "genus": "Antilocapra",
+              "species": "A. americana"
+            },
+            "habitat": "Grasses and shrubs of the Great Plains, western United States, and southern Canada",
+            "diet": "Herbivorous, feeding on grasses, forbs, and browse",
+            "physical_characteristics": "Large eyes, long eyelashes, stocky body, short tail, white rump patch, brownish-red coat with white markings",
+            "conservation_status": "Least Concern"
+          }
+        ]
+      }
     },
     {
       "imatge": {
         "nom_fitxer": "03d7fc0888.jpg"
       },
-      "analisi": "{\"timestamp\": \"2023-09-14T16:35:42.000Z\", \"animals\": [{\"name\": \"Gazella cuvieri\", \"scientific_name\": \"Gazella cuvieri\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Artiodactyla\", \"family\": \"Bovidae\", \"genus\": \"Gazella\", \"species\": \"cuvieri\"}, \"habitat\": \"Savanes i praderies de l'est d'Àfrica\", \"diet\": \"Herbivori\", \"physical_characteristics\": \"La Gazella cuvieri té unes banyes curtes, un cos prim i uns membres llargs. El pelatge és variable en color, però generalment és marró clar.\", \"conservation_status\": \"No amenaçada (LC)\" }]}"
+      "analisi": {
+        "timestamp": "2023-09-14T02:10:15.000Z",
+        "animals": [
+          {
+            "name": "Saiga Antelope",
+            "scientific_name": "Saiga tatarica",
+            "taxonomy": {
+              "kingdom": "Animalia",
+              "phylum": "Chordata",
+              "class": "Mammalia",
+              "order": "Artiodactyla",
+              "family": "Bovidae",
+              "genus": "Saiga",
+              "species": "tatarica"
+            },
+            "habitat": "The Saiga Antelope inhabits the steppes and grasslands of Central Asia, particularly in Russia, Kazakhstan, Mongolia, and China.",
+            "diet": "The Saiga Antelope is a herbivore, feeding on grasses, leaves, and other vegetation.",
+            "physical_characteristics": "The Saiga Antelope has a distinctive set of horns, a long snout, and a white coat with black markings. It can grow up to 1 meter in length and weigh between 20-40 kilograms.",
+            "conservation_status": "Vulnerable"
+          }
+        ]
+      }
     },
     {
       "imatge": {
         "nom_fitxer": "00f56e5c92.jpg"
       },
-      "analisi": "{\"timestamp\": \"2023-09-15T07:25:00.000Z\", \"animals\": [{\"name\": \"Badger\", \"scientific_name\": \"Meles meles\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Carnivora\", \"family\": \"Mustelidae\", \"genus\": \"Meles\", \"species\": \"meles\"}, \"habitat\": \"Forests, grasslands and wetlands.\", \"diet\": \"Insects, fruits, roots, and small mammals.\", \"physical_characteristics\": \"Stocky body, short legs, distinctive white stripes on its face.\", \"conservation_status\": \"Least Concern\"}]}"
+      "analisi": {
+        "timestamp": "2023-09-14T16:23:59.000Z",
+        "animals": [
+          {
+            "name": "Badger",
+            "scientific_name": "Meles meles",
+            "taxonomy": {
+              "kingdom": "Animalia",
+              "phylum": "Chordata",
+              "class": "Mammalia",
+              "order": "Carnivora",
+              "family": "Mustelidae",
+              "genus": "Meles",
+              "species": "meles"
+            },
+            "habitat": "Forests, grasslands and wetlands in Europe and Western Asia.",
+            "diet": "Insectivorous, feeding on insects, worms, fruits, roots and small mammals.",
+            "physical_characteristics": "Short, stocky body with a distinctive white stripe running along its back. Short legs and powerful claws.",
+            "conservation_status": "Least Concern."
+          }
+        ]
+      }
     },
     {
       "imatge": {
         "nom_fitxer": "010fce8ee7.jpg"
       },
-      "analisi": "{\"timestamp\": \"2023-09-14T15:30:00.000Z\", \"animals\": [{\"name\": \"badger\", \"scientific_name\": \"Taxidea taxus\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Carnivora\", \"family\": \"Mustelidae\", \"genus\": \"Taxidea\", \"species\": \"taxus\"}, \"habitat\": \"Open woodland, grassland and scrub areas\", \"diet\": \"Insects, small mammals, fruits, roots and carrion\", \"physical_characteristics\": \"Stocky body, short legs, distinctive white stripe on face, coarse greyish-brown fur with a pale underside\", \"conservation_status\": \"Least Concern\"}]}"
+      "analisi": {
+        "timestamp": "2023-09-14T16:32:59.403Z",
+        "animals": [
+          {
+            "name": "Badger",
+            "scientific_name": "Meles meles",
+            "taxonomy": {
+              "kingdom": "Animalia",
+              "phylum": "Chordata",
+              "class": "Mammalia",
+              "order": "Carnivora",
+              "family": "Mustelidae",
+              "genus": "Meles",
+              "species": "meles"
+            },
+            "habitat": "Forests, grasslands and wetlands in Europe, Asia and North Africa.",
+            "diet": "Insects, small mammals, fruits, roots and carrion.",
+            "physical_characteristics": "Short, stout body; distinctive white stripes on the face; short legs and a long, pointed snout.",
+            "conservation_status": "Least Concern"
+          }
+        ]
+      }
     },
     {
       "imatge": {
         "nom_fitxer": "003bd60fa9.jpg"
       },
-      "analisi": "{\"timestamp\": \"2023-09-14T21:25:00.000Z\", \"animals\": [{\"name\": \"Mol\\u00fcsca\", \"scientific_name\": \"Rhinolophus ferrumequinum\", \"taxonomy\": {\"kingdom\": \"Animalia\", \"phylum\": \"Chordata\", \"class\": \"Mammalia\", \"order\": \"Chiroptera\", \"family\": \"Rhinolophidae\", \"genus\": \"Rhinolophus\", \"species\": \"ferrumequinum\"}, \"habitat\": \"Cavernes, mines i espais tancats\", \"diet\": \"Insectes nocturns\", \"physical_characteristics\": \"Els seus ulls s\\u2019han adaptat a la vida nocturna, amb un conjunt de cèl·lules fotoreceptors especialitzades per detectar les freq\\u00fcencies d\\u2019ultrason que emeten els insectes\", \"conservation_status\": \"Menor preocupaci\\u00f3\"}]}"
+      "analisi": {
+        "timestamp": "2023-09-14T18:30:00.000Z",
+        "animals": [
+          {
+            "name": "Ratpenat",
+            "scientific_name": "Pteropus vampyrus",
+            "taxonomy": {
+              "kingdom": "Animalia",
+              "phylum": "Chordata",
+              "class": "Mammalia",
+              "order": "Chiroptera",
+              "family": "Pteropodidae",
+              "genus": "Pteropus",
+              "species": "vampyrus"
+            },
+            "habitat": "Serpentins i arbres de la selva tropical",
+            "diet": "Fruita, fulles i insectes",
+            "physical_characteristics": "Crida el nom de Ratpenat a causa dels seus petits peus i les seves ales membranoses",
+            "conservation_status": "En perill crític"
+          }
+        ]
+      }
     }
   ]
 }
